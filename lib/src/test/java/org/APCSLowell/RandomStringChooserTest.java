@@ -2,11 +2,11 @@ package org.APCSLowell;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+import java.util.ArrayList;
 public class RandomStringChooserTest {
     @Test
     public void randomStringChooserTest() {
-        List<String> test = new ArrayList<>();
+        ArrayList<String> test = new ArrayList<>();
         String[] wordArray = { "wheels", "on", "the", "bus" };
         RandomStringChooser sChooser = new RandomStringChooser(wordArray);
         for (int k = 0; k < 6; k++) {
